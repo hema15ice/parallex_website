@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Parallax Website</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .parallax-container {
+      height: 300px; /* Adjust the height as needed */
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+    }
+
+    .parallax-section {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    .parallax-bg1 {
+      background-image: url("https://media.istockphoto.com/id/675754156/photo/freedom-and-stress-free-concept.jpg?s=612x612&w=0&k=20&c=PxiAFMsFwKE4fBvgONzSGKLYFLsmVEPAyU6UYChcAGg="); /* Replace with your image */
+    }
+
+    .parallax-bg2 {
+      background-image: url("https://media.istockphoto.com/id/675754156/photo/freedom-and-stress-free-concept.jpg?s=612x612&w=0&k=20&c=PxiAFMsFwKE4fBvgONzSGKLYFLsmVEPAyU6UYChcAGg="); /* Replace with your image */
+    }
+
+    .content {
+      padding: 20px;
+      background-color: white; /* Background color for non-parallax sections */
+    }
+
+    h1,
+    h2,
+    p {
+      margin: 0;
+    }
+  </style>
+  <body>
+    <div class="parallax-container">
+      <div class="parallax-section parallax-bg1">
+        <h1 style="color: cyan; font-size: 70px;">
+          SOLITUDE
+        </h1>
+      </div>
+    </div>
+
+    <div class="content">
+      <center><h2>INTRODUCTION</h2></center>
+      <br />
+      <p style="font-size: 25px;">
+        Loneliness can be a challenging experience, particularly for girls who
+        feel isolated and disconnected from others. It is possible to feel happy
+        even during periods of loneliness. In this blog post, I will share my
+        personal experiences that have helped me find happiness and fulfillment
+        when I was isolated from others.
+      </p>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax-section parallax-bg2">
+        <p></p>
+      </div>
+    </div>
+    <center><h2>Lonliness</h2></center>
+    <br />
+    <p style="font-size: 25px;">
+      Growing up as an only child, I had the opportunity to develop
+      independence. While some may assume that being an only child leads to
+      loneliness, I was fortunate to have constant support and companionship
+      from my loving family members. Despite occasional moments of solitude, I
+      never felt solitude because I discovered the power of self-entertainment.
+      Engaging in activities and games brought me immense joy and kept me
+      happily occupied. During my school years, I was fortunate to always have
+      the company of my family and friends. Loneliness was not a familiar
+      feeling to me during that time. I cherished the moments spent with loved
+      ones. Although I had a cousin, our age difference meant that we didn't
+      always play together. While we enjoyed occasional playtime, he found
+      greater happiness when surrounded by peers of his own age, I cherished the
+      moments we spent together. However, a few years ago, he tragically passed
+      away, leaving me deeply saddened by his absence. In the midst of grief, I
+      found solace in believing that he was still with me in spirit, even though
+      he had disappeared physically. With his memory as a guiding light, I found
+      the strength to carry on and make my family proud of the person I was
+      becoming.
+    </p>
+    <div class="parallax-container">
+      <div class="parallax-section parallax-bg2">
+        <p></p>
+      </div>
+    </div>
+    <div class="content">
+      <center><h2>STEPPING INTO INDEPENDENCE</h2></center>
+      <br />
+      <p style="font-size: 25px;">
+        When the time came for me to pursue my higher studies, I found myself in
+        a situation where I had to leave my family and friends. This transition
+        was not easy, and I initially felt a sense of loneliness and longing for
+        a companion. But, I soon realized that this is a period of opportunity
+        for my personal growth and self-discovery. I started to explore my area
+        of interest. When I learn something in my area of interest that was a
+        special feeling not explained by words.
+      </p>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax-section parallax-bg2">
+        <p></p>
+      </div>
+    </div>
+    <div class="content">
+      <center><h2>SELF-CARE AND SELF-LOVE</h2></center>
+      <br />
+      <p style="font-size: 25px;">
+        When I was alone, I realise the beauty of self-love and self-care. I
+        started appreciating my work I realized that by acknowledging and
+        appreciating my work, I was motivated to strive for greater things in
+        the upcoming days. The love and appreciation I extended to myself
+        brought happiness that made me feel like the happiest person in the
+        world.
+      </p>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var elems = document.querySelectorAll(".parallax-section");
+        var instances = M.Parallax.init(elems);
+      });
+    </script>
+  </body>
+</html>
